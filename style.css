@@ -163,7 +163,7 @@ body {
 .texto {
     font-family: 'Cormorant', serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: black;
     display: flex;
     text-align: center;
