@@ -55,11 +55,23 @@ body {
     font-style: oblique;
     font-size: 2rem;
     color: black;
+    transition: 1s;
 
 }
 
+.Link:hover {
+    text-shadow: 10px 10px 10px black;
+}
+
+
+
 #logo {
     width: 80px;
+    transition: 1s;
+}
+
+#logo:hover {
+    transform:scale(2) ;
 }
 
 /* Estilos para la imagen del index */
@@ -112,8 +124,8 @@ body {
     /* border: 2px solid black; */
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(7,auto);
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7,auto); */
     grid-template-areas: "header header"
                         "titulo titulo"
                         "texto1 imagen1"
@@ -181,6 +193,7 @@ body {
     box-shadow: 5px 5px 5px;
     border-radius: 25px;
     border: 2px solid black;
+    grid-area: imagen2;
 }
 
 .textoOrganizacion{
@@ -220,6 +233,7 @@ body {
     box-shadow: 5px 5px 5px black;
     border: 2px solid black;
     overflow: hidden;
+    grid-area: video;
 }
 
 .title2, .title3 {
@@ -278,4 +292,22 @@ body {
     background-color: #f0e1ce;
     border: 2px solid black;
     grid-area: footer;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: black;
+    }
+    .contenedorConocenos {
+        grid-template-areas:"header header"
+                            "titulo titulo"
+                            "imagen1 imagen1"
+                            "texto1 texto1"
+                            "imagen2 imagen2"
+                            "texto2 texto2"
+                            "video video"
+                            "texto3 texto3"
+                            "formulario fromulario"
+                            "footer footer";
+    }
 }

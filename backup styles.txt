@@ -1,4 +1,4 @@
-﻿.bodyindex {
+﻿	.bodyindex {
     box-sizing: border-box;
     background-color: #fdfdfd;
     padding-top: 0;
