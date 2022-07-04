@@ -121,11 +121,10 @@ body {
     width: 90%;
     max-width: 2000px;
     margin: 20px auto;
-    /* border: 2px solid black; */
     display: grid;
     gap: 20px;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(7,auto); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7,auto);
     grid-template-areas: "header header"
                         "titulo titulo"
                         "texto1 imagen1"
@@ -135,6 +134,27 @@ body {
                         "footer footer";
 }
 
+@media only screen and (max-width: 576px) {
+    .contenedorConocenos {
+        width: 100%;
+        /* max-width: 2000px; */
+        margin: auto;
+        display: grid;
+        /* gap: 20px; */
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7,auto);
+        grid-template-areas:"header"
+                            "titulo"
+                            "texto1"
+                            "texto2"
+                            "video"
+                            "formulario"
+                            "footer";
+                        }
+    .textoPresentacion {
+        width: 100%;
+    }
+}
 .cabeceraConocenos {
     grid-area: header;
 }
@@ -167,6 +187,27 @@ body {
 .imagenConocemos {
     grid-area: imagen1;
 }
+/* @media only screen and (max-width: 576px) {
+    .imagenConocemos { 
+        display: hidden;
+    }
+    .textoPresentacion {
+        width: 100%;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .textoInvitacion {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px black;
+        grid-area: texto3;
+    }
+} */
 
 .imagenConocenos1 {
     width: 30vw;
@@ -293,24 +334,13 @@ body {
     border: 2px solid black;
     grid-area: footer;
 }
-
-@media screen and (max-width: 980px) {
+/* 
+@media screen and (max-width: 576px) {
     body {
         background-color: black;
     }
-    .contenedorConocenos {
-        grid-template-areas:"header header"
-                            "titulo titulo"
-                            "imagen1 imagen1"
-                            "texto1 texto1"
-                            "imagen2 imagen2"
-                            "texto2 texto2"
-                            "video video"
-                            "texto3 texto3"
-                            "formulario fromulario"
-                            "footer footer";
-    }
-}
+
+} */
 
 /*Estilos página Productos*/
 
@@ -335,6 +365,7 @@ body {
 }
 
 .imagenCaracteristicas {
+    width: 90%;
     border-radius: 25px;
     box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
     margin: 50px;
@@ -356,6 +387,7 @@ body {
     object-fit: cover;
     border-radius: 25px;
     box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
+    opacity: 50%;
 }
 
 .catalogo__productos {
@@ -375,6 +407,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .gridCatalogo {
+        grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    }
 }
 
 .gridProducto {
@@ -399,5 +439,6 @@ body {
 .volver {
     /* border: 2px solid black; */
     display: flex;
+    justify-content: center;
 
 }
