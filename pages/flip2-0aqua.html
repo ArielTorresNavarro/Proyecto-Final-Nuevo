@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flip 2.o Aqua</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles2.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,700;1,600&display=swap" rel="stylesheet">
+
+    <title>Flip 2.0 Aqua</title>
 </head>
 <body>
     <header>
        <div>
-        <ul>
-            <li><a href="../index.html" class= "Link"><img src="../Multimedia/Imagenes/Encuentro logo anak 2 redondo sin fondo.png" alt="logo circular con las palabras Encuentro Essen" id="logo" ></a></li>
-            <li>Volver al Catálogo</li>
-            <li>Ver producto anterior</li>
-            <li>Ver siguiente producto</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="../index.html" class= "Link"><img src="../Multimedia/Imagenes/Encuentro logo anak 2 redondo sin fondo.png" alt="logo circular con las palabras Encuentro Essen" id="logo" ></a></li>
+                <li><a href="productos.html"> Volver al Catálogo</a></li>
+                <li>Ver producto anterior</li>
+                <li>Ver siguiente producto</li>
+            </ul>
+        </nav>
        </div>
     </header>
     <main>
-        <h1>Flip 2.0 Aqua</h1>
-        <video src="../Multimedia/Videos/Flip_Terra_Cuadrados de almendra sin TACC_Con titulos.mp4" controls></video><!--Aquí iría un video o una imagen según haya disponibilidad de archivo-->
-        <div>
+        <h1 class="titulo">Flip 2.0 Aqua</h1>
+        <div class="video">
+            <video src="../Multimedia/Videos/Flip_Terra_Cuadrados de almendra sin TACC_Con titulos.mp4" controls></video><!--Aquí iría un video o una imagen según haya disponibilidad de archivo-->
+        </div>
+        <div class="caracteristicas">
             <h2>Características generales</h2>
             <ul>
                 <li>Desmontable debido a la bisagra renovada</li>
@@ -32,14 +45,24 @@
                 <li>Recubrimiento antiadherente interior y exterior de máxima antidherencia, resistencia y fácil limpieza.</li>
             </ul>
         </div>
-        <div>
+        <div class="imagenes">
             <img src="../Multimedia/Imagenes/Flip 2.0 Aqua ambientada 1.jpg" alt="Flip aqua ambientada">
             <img src="../Multimedia/Imagenes/Flip 2.0 Aqua ambientada.jpg" alt="Flip Aqua ambientada">
             <img src="../Multimedia/Imagenes/Flip 2.0 Aqua ambientada 3.jpg" alt="Flip Aqua ambientada">
         </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footerConocenos">
+        <div class="footerDiv">
+            <ul class="footerDivList">
+                <li class="footerLogosRedes">
+                    <a href="https://www.facebook.com/EncuentroEssenGC" target="_blank" rel="noopener noreferrer"><img src="../Multimedia/Imagenes/facebooknegro.png" alt="logo de facebook" class="logosRedes"></a>
+                    <a href="https://www.instagram.com/encuentroessen" target="_blank"><img src="../Multimedia/Imagenes/instagramnegro.png" alt="logo de instagram" class="logosRedes"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5493515186952&text&app_absent=0" target="_blank"><img src="../Multimedia/Imagenes/whatsappnegro.png" alt="logo de whatsapps" class="logosRedes"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerDiv2">
+            <p class="textoFooter">Conocé más de Essen ingresando<span> <a href="https://www.essen.com.ar/home/" target="_blank" class="Link"> aqui</a></span></p>
+        </div>
 </body>
 </html>
