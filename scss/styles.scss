@@ -50,8 +50,8 @@ body{
         margin: 0 auto;
         width: 70%;
         display: grid;
-        grid-template-columns: 1 fr 1fr;
-        grid-template-rows: 20vh 110vh 80vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20vh 110vh 100vh;
         grid-template-areas:    "titulo titulo"
                                 "video caracteristicas"
                                 "imagenes imagenes";
@@ -70,7 +70,7 @@ body{
             video {
                 margin: 0 auto;
                 width: 100%;
-                height: auto;
+                height: 90gitvh;
                 background-color: white;
                 border-radius: 25px;
                 box-shadow: 5px 5px 5px black;
