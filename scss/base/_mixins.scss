@@ -1,0 +1,11 @@
+@mixin textos($tipo, $tamanio, $color){
+    font-family: 'Cormorant', serif;
+    font-style: $tipo;
+    font-size: $tamanio;
+    color: $color;
+}
+
+@mixin imagenesCatalogo($tamanio) {
+    width: $tamanio;
+    object-fit: cover;
+}

@@ -1,0 +1,18 @@
+// Reseteo
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'components/headers';
+@import 'components/footers';
+@import 'base/mixins';
+@import 'base/extends';
+@import 'components/index';
+@import 'components/conocenos';
+@import 'base/maps';
+@import 'components/productos'
+
+

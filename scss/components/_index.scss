@@ -1,0 +1,25 @@
+@import '../base/mixins';
+@import '../base/extends';
+@import '../components/headers';
+@import '../components/footers';
+
+.title1 {
+    @include textos(normal,60px,black);
+    font-family: 'Cormorant', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenIndex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenPrincipal {
+    @extend %imagenes;
+    width: 70%;
+    display: flex;
+    align-content: center;
+    margin-bottom: 50px;
+}

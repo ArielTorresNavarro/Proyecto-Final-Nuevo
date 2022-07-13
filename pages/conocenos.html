@@ -31,28 +31,43 @@
     <title>Somos Encuentro Essen y te inivitamos a conocernos para que te sumes</title>
 </head>
 <body>
-    <header  class= "cabeceraConocenos">
-        <nav>
-            <ul class="cabeceraIndexLista">
-                <li class= "cabeceraListaItem"><a href="conocenos.html" class= "Link">Conocenos</a></li>
-                <li class= "cabeceraListaItem"><a href="../index.html" class= "Link"><img src="../Multimedia/Imagenes/Encuentro logo anak 2 redondo sin fondo.png" alt="logo circular con las palabras Encuentro Essen" id="logo" ></a></li>
-                <li class= "cabeceraListaItem"><a href="productos.html" class= "Link">Productos</a></li>
-            </ul>
-        </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbarPersonalizado">
+            <div class="container">
+            <a class="navbar-brand logo" href="../index.html">
+                <img src="../Multimedia/Imagenes/Encuentro logo anak 2 redondo sin fondo.png" alt="logo circular con las palabras Encuentro Essen" width="50" height="50">
+            </a>
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active linkPersonalizado" aria-current="page" href="conocenos.html">Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link linkPersonalizado" href="productos.html">Productos</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
     </header>
-    <main>
+    <main class="contenedorConocenos">
         <h1 class="title1">Somos Encuentro Essen</h1>
         <!--INICIO DE LAS TRES SECCIONES QUE QUIERO: SOY GABRIELA, ORGANIZACIÓN ENCUENTRO Y vIDEO DE INVITACIÓN-->
-        <section class=""> <!--TEXTO DE LA TARJETA-->
+        <section class="contenedorPresentacion"> <!--TEXTO DE LA TARJETA-->
             <div class="textoPresentacion">
                 <h2 class="title2">Soy Gabriela Cogo</h2>
                 <p class="texto">Soy mamá a tiempo completo y médica. Hace un par de años, por curiosidad, decidí sumarme a Essen. Hoy me doy cuenta que ha sido de las decisiones más acertadas que he tomado. En Essen conocí gente maravillosa que me acompaño en mi crecimiento dentro de este negocio y estar posicionada hoy como Ejecutiva Master, liderando la Organización Encuentro Essen. Ser una Emprendedora independiente Essen me dado posibilidades que no había imaginado como manejar mis tiempos, elegir cuanto quiero ganar por mes y además, y no menos importante, equipar mi cocina con los productos mejor posicionados en el mercado. </p>
             </div> <!--FIN DEL TEXTO DE LA TARJETA-->
             <div class="imagenConocenos"><!--FOTO DE GABRIELA-->
-                    <img src="../Multimedia/Imagenes/Gabriela Cogo Essen 3.JPG" alt="Gabriela Cogo con una flip Essen" class="imagenConocenos1">
-            </div><!--fIN DE LA FOTO DE GABRIELA-->
-        </div><!--FIN DE LA SECCION DE PRESENTACIÓN DE GABRIELA EN TARJETA SUPERPUESTA A UNA FOTO DE GABI-->
-        <div class="presentacionOrganizacion"> <!--SEGUNDA SECCIÓN: MAPA DE ARGENTINA Y TEXTO SOBRE LA ORGANIZACIÓN ENCUENTRO-->
+                <img src="../Multimedia/Imagenes/Gabriela Cogo Essen 3.JPG" alt="Gabriela Cogo con una flip Essen" class="imagenConocenos1">
+            </div><!--FIN DE LA FOTO DE GABRIELA-->
+        </section>
+        <section class="contenedorOrganizacion"><!--SEGUNDA SECCIÓN: MAPA DE ARGENTINA Y TEXTO SOBRE LA ORGANIZACIÓN ENCUENTRO-->
             <div><!--MAPA DE ARGENTINA-->
                 <img src="../Multimedia/Imagenes/Mapa Argentina.jpg" alt="Un mapa de argentina que muestra la ubicación de las emprendedoras independientes" class="imagenConocenos2">
             </div><!--FIN DEL MAPA DE ARGENTINA-->
@@ -61,9 +76,8 @@
                     <h2 class="title3">Organización Encuentro Essen</h2>
                     <p class="texto">Somos un equipo de casi 200 personas distibuidas a lo largo y ancho del país. En nuestro equipo trabajamos constantemente para que todos y todas podamos crecer, proque creemos firmemente que el crecimiento individual siempre debe estara acompañado por el avance grupal. Por eso nos capacitamos constatemente para que cada cada emprendedor y emprededora pueda hacer de su emprendimiento la escalera que le permita alcanzar sus sueños</p>
                 </div><!--FIN DEL TEXTO SOBRE LA ORGANIZACIÓN ENCUENTRO-->
-            </div> <!--FIN SEGUNDA SECCIÓN: MAPA DE ARGENTINA Y TEXTO SOBRE LA ORGANIZACIÓN ENCUENTRO-->
-        </section>
-        <section class="invitacion"> <!--TERCERA SECCIÓN: INVITACION AL EQUIPO-->
+        </section><!--FIN SEGUNDA SECCIÓN: MAPA DE ARGENTINA Y TEXTO SOBRE LA ORGANIZACIÓN ENCUENTRO-->
+        <section class="contenedorInvitacion"> <!--TERCERA SECCIÓN: INVITACION AL EQUIPO-->
             <div class="textoInvitacion"><!--TARJETA CON EL TEXTO INVITANDO A LA INCORPORACIÓN-->
                 <h2 class="title2">Sumate a al equipo</h2>
                 <p class="texto">Quiero invitarte a que te sumes a mi equipo y descubras todo los que Essen tiene para vos. Ser parte de Encuentro Essen te permitirá administrar tus tiempos, elegir cuánto queres ganar por mes, estableser metras claras y concretas que seguro podés cumplir y sobre todo, vas a poder equipar tu cocina completamente gratis! Vas a viajar, vas a recibir premios, vas a participar de eventos en distintos puntos del país y vas a ser parte una comunidad llena de carño y pasión por lo que hace que te compañará en cada paso hacía adelante!</p>
@@ -71,8 +85,8 @@
             <div class="videoInvitacion" > <!--VIDEO-->
                 <video src="../Multimedia/Videos/Invitación al negocio.mp4" controls class="video" title="Video de Gabriela Cogo invitando al negocio Essen"></video>
             </div><!--FIN DEL VIDEO-->
-        </div><!--FIN DE LA TERCERA SECCIÓN: INVITACION AL EQUIPO-->
-        <div class="formularioConocenos"> <!--SECCION PARA EL FORMULARIO-->
+        </section><!--FIN DE LA TERCERA SECCIÓN: INVITACION AL EQUIPO-->
+        <section class="formularioConocenos"> <!--SECCION PARA EL FORMULARIO-->
             <h2 class="title2">Completá el formulario y cambia tu futuro</h2>
             <div class="contenedorFormulario">
                 <form action="" class="formulario">
@@ -106,6 +120,7 @@
                 </form>
             </div>
         </section><!--FIN DE LA SECCION PARA EL FORMULARIO-->
+
     </main>
     <footer class="footerConocenos">
         <div class="footerDiv">
