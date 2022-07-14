@@ -31,6 +31,7 @@
     }
     .caracteristicasDelProducto {
         @include textos (normal,1.5rem, black);
+        padding-top: map-get($marginPaddingBorders, padding-top );
         width: 50%;
         text-align: center;
         padding-top: 2vw;
@@ -42,7 +43,7 @@
     .ContenedorImagenesDelProducto {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 20px;
+        margin-bottom: map-get($marginPaddingBorders, margin-bottom);
         .imagenDelProducto {
             width: 30%;
             height: 70vh;

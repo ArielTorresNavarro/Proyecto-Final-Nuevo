@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25px;
+}
+
+.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header .navbarPersonalizado {
   width: 75%;
   margin: 0 auto;
@@ -49,6 +61,18 @@ footer .footerDivList .logosRedes {
 }
 footer .footerDivList .logosRedes:hover {
   transform: scale(1.5);
+}
+
+.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25px;
+}
+
+.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
@@ -142,6 +166,18 @@ footer .footerDivList .logosRedes:hover {
   display: flex;
   align-content: center;
   margin-bottom: 50px;
+}
+
+.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25px;
+}
+
+.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
@@ -316,6 +352,18 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
+.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25px;
+}
+
+.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header .navbarPersonalizado {
   width: 75%;
   margin: 0 auto;
@@ -368,8 +416,6 @@ footer .footerDivList .logosRedes:hover {
   display: flex;
   justify-content: center;
   margin: 50px;
-  /* border-radius: 25px;
-  box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;  */
 }
 
 .videoyoutube {
@@ -392,7 +438,6 @@ footer .footerDivList .logosRedes:hover {
 .contenedorCarousel {
   width: 100%;
   height: auto;
-  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
 }
@@ -414,7 +459,6 @@ footer .footerDivList .logosRedes:hover {
 }
 
 .gridCatalogo {
-  /* border: 2px solid black; */
   margin-top: 30px;
   margin-bottom: 50px;
   width: 60%;
@@ -454,9 +498,20 @@ footer .footerDivList .logosRedes:hover {
 }
 
 .volver {
-  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
+}
+
+.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 25px;
+}
+
+.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
@@ -542,6 +597,7 @@ footer .footerDivList .logosRedes:hover {
   font-style: normal;
   font-size: 1.5rem;
   color: black;
+  padding-top: 2vw;
   width: 50%;
   text-align: center;
   padding-top: 2vw;

@@ -1,7 +1,11 @@
+@import '../base/maps';
+@import '../base/mixins';
+@import '../base/extends';
+
 header {
     .navbarPersonalizado {
         width: 75%;
-        margin: 0 auto;
+        margin: map-get( $marginPaddingBorders, margin);
         background-color: #D7BE9E;
         border-radius: 25px;
         box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
