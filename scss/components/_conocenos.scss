@@ -15,12 +15,24 @@
     justify-content: center;
 }
 
-.contenedorPresentacion {
-    @extend %displayConocenos
+// .contenedorPresentacion {
+//     @extend %displayConocenos
+// }
+.contenedorTarjetas {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
-
+.contenedorTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .textoPresentacion {
-    width: 25%;
+    width:35vw;
+    height: fit-content;
     border: 2px solid black;
     background-color: white;
     border-radius: 25px;
@@ -33,32 +45,41 @@
     width: 30vw;
 }
 
-.contenedorOrganizacion {
-    @extend %displayConocenos;
+// .contenedorOrganizacion {
+//     @extend %displayConocenos;
     
-}
+// }
 
 
 .imagenConocenos2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+}
+
+.imagenMapa {
     @extend %imagenes;
     width:30vw;
     border: 2px solid black;
+
 }
 
 .textoOrganizacion{
-    width: 40%;
+    width: 35vw;
     border: 2px solid black;
     background-color: white;
     border-radius: 25px;
     box-shadow: 5px 5px 5px black;
+
 }
 
-.contenedorInvitacion {
-    @extend %displayConocenos;
-}
+// .contenedorInvitacion {
+//     @extend %displayConocenos;
+// }
 .textoInvitacion {
-    width: 50%;
-    height: 100%;
+    width: 35vw;
+    height: fit-content;
     border: 2px solid black;
     background-color: white;
     border-radius: 25px;
@@ -68,13 +89,12 @@
     @extend %imagenes;
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 25%;
+    align-content: center;
+    width: 25vw;
     background-color: white;
     border-radius: 25px;
     overflow: hidden;
-    grid-area: video;
 }
 
 

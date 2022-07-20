@@ -5,13 +5,13 @@
   box-sizing: border-box;
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,37 +63,37 @@ footer .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,25 +168,25 @@ footer .footerDivList .logosRedes:hover {
   margin-bottom: 50px;
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.videoInvitacion, .imagenConocenos2, .imagenConocenos1, .imagenPrincipal {
+.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorInvitacion, .contenedorOrganizacion, .contenedorPresentacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,8 +248,23 @@ footer .footerDivList .logosRedes:hover {
   justify-content: center;
 }
 
+.contenedorTarjetas {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.contenedorTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .textoPresentacion {
-  width: 25%;
+  width: 35vw;
+  height: fit-content;
   border: 2px solid black;
   background-color: white;
   border-radius: 25px;
@@ -261,12 +276,19 @@ footer .footerDivList .logosRedes:hover {
 }
 
 .imagenConocenos2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: fit-content;
+}
+
+.imagenMapa {
   width: 30vw;
   border: 2px solid black;
 }
 
 .textoOrganizacion {
-  width: 40%;
+  width: 35vw;
   border: 2px solid black;
   background-color: white;
   border-radius: 25px;
@@ -274,8 +296,8 @@ footer .footerDivList .logosRedes:hover {
 }
 
 .textoInvitacion {
-  width: 50%;
-  height: 100%;
+  width: 35vw;
+  height: fit-content;
   border: 2px solid black;
   background-color: white;
   border-radius: 25px;
@@ -285,13 +307,12 @@ footer .footerDivList .logosRedes:hover {
 .videoInvitacion {
   border: 2px solid black;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 25%;
+  align-content: center;
+  width: 25vw;
   background-color: white;
   border-radius: 25px;
   overflow: hidden;
-  grid-area: video;
 }
 
 .title2, .title3 {
@@ -340,25 +361,25 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -502,25 +523,25 @@ footer .footerDivList .logosRedes:hover {
   justify-content: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenConocenos2, .videoInvitacion {
+.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
 }
 
-.contenedorDeProducto .ContenedorVideoYCarateristicas, .contenedorPresentacion, .contenedorOrganizacion, .contenedorInvitacion {
+.contenedorDeProducto .ContenedorVideoYCarateristicas {
   display: flex;
   justify-content: center;
   align-items: center;
