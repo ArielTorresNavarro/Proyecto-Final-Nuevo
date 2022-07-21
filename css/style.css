@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -63,7 +63,7 @@ footer .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -75,7 +75,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -87,7 +87,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -168,7 +168,7 @@ footer .footerDivList .logosRedes:hover {
   margin-bottom: 50px;
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -180,7 +180,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.videoInvitacion, .imagenMapa, .imagenConocenos1, .imagenPrincipal {
+.contenedorConocenos .contenedorTarjetas .videoInvitacion, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .imagenPrincipal {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -239,7 +239,7 @@ footer .footerDivList .logosRedes:hover {
 }
 
 /* Estilos de la página Conocenos */
-.title1 {
+.contenedorConocenos .title1 {
   font-family: "Cormorant", serif;
   font-style: normal;
   font-size: 60px;
@@ -247,22 +247,19 @@ footer .footerDivList .logosRedes:hover {
   display: flex;
   justify-content: center;
 }
-
-.contenedorTarjetas {
+.contenedorConocenos .contenedorTarjetas {
   width: 75%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
-
-.contenedorTexto {
+.contenedorConocenos .contenedorTarjetas .contenedorTexto {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.textoPresentacion {
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoPresentacion {
   width: 35vw;
   height: fit-content;
   border: 2px solid black;
@@ -270,32 +267,59 @@ footer .footerDivList .logosRedes:hover {
   border-radius: 25px;
   box-shadow: 5px 5px 5px black;
 }
-
-.imagenConocenos1 {
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoPresentacion .title2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
+}
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoPresentacion .texto {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 2vw;
+}
+.contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1 {
   width: 30vw;
 }
-
-.imagenConocenos2 {
+.contenedorConocenos .contenedorTarjetas .imagenConocenos2 {
   display: flex;
   justify-content: center;
   align-content: center;
   height: fit-content;
 }
-
-.imagenMapa {
+.contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa {
   width: 30vw;
   border: 2px solid black;
 }
-
-.textoOrganizacion {
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoOrganizacion {
   width: 35vw;
   border: 2px solid black;
   background-color: white;
   border-radius: 25px;
   box-shadow: 5px 5px 5px black;
 }
-
-.textoInvitacion {
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoOrganizacion .title3 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
+}
+.contenedorConocenos .contenedorTarjetas .contenedorTexto .textoOrganizacion .texto {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 2vw;
+}
+.contenedorConocenos .contenedorTarjetas .textoInvitacion {
   width: 35vw;
   height: fit-content;
   border: 2px solid black;
@@ -303,8 +327,23 @@ footer .footerDivList .logosRedes:hover {
   border-radius: 25px;
   box-shadow: 5px 5px 5px black;
 }
-
-.videoInvitacion {
+.contenedorConocenos .contenedorTarjetas .textoInvitacion .title2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
+}
+.contenedorConocenos .contenedorTarjetas .textoInvitacion .texto {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 2vw;
+}
+.contenedorConocenos .contenedorTarjetas .videoInvitacion {
   border: 2px solid black;
   display: flex;
   justify-content: center;
@@ -314,8 +353,12 @@ footer .footerDivList .logosRedes:hover {
   border-radius: 25px;
   overflow: hidden;
 }
-
-.title2, .title3 {
+.contenedorConocenos .formularioConocenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorConocenos .formularioConocenos .title2 {
   font-family: "Cormorant", serif;
   font-style: normal;
   font-size: 30px;
@@ -323,24 +366,7 @@ footer .footerDivList .logosRedes:hover {
   text-align: center;
   padding-top: 1vw;
 }
-
-.texto {
-  font-family: "Cormorant", serif;
-  font-style: normal;
-  font-size: 1.5rem;
-  color: black;
-  text-align: center;
-  padding-top: 2vw;
-}
-
-.formularioConocenos {
-  grid-area: formulario;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contenedorFormulario {
+.contenedorConocenos .formularioConocenos .contenedorFormulario {
   border: 2px solid black;
   width: 70%;
   margin-top: 10px;
@@ -349,8 +375,7 @@ footer .footerDivList .logosRedes:hover {
   border-radius: 25px;
   box-shadow: 5px 5px 5px black;
 }
-
-.formulario {
+.contenedorConocenos .formularioConocenos .contenedorFormulario .formulario {
   font-family: "Cormorant", serif;
   font-style: normal;
   font-size: 25px;
@@ -361,7 +386,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
+.imagenPrincipal, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -373,7 +398,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
+.imagenPrincipal, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -523,7 +548,7 @@ footer .footerDivList .logosRedes:hover {
   justify-content: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
+.imagenPrincipal, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
@@ -535,7 +560,7 @@ footer .footerDivList .logosRedes:hover {
   align-items: center;
 }
 
-.imagenPrincipal, .imagenConocenos1, .imagenMapa, .videoInvitacion {
+.imagenPrincipal, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .videoInvitacion {
   object-fit: cover;
   box-shadow: 5px 5px 5px black;
   border-radius: 25px;
