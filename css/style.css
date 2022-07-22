@@ -457,38 +457,48 @@ footer .footerDivList .logosRedes:hover {
 }
 
 /*Estilos página Productos*/
-.div__videoyoutube {
-  /* border: 2px solid black; */
+main .tituloYPresentacion .title1 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 60px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+main .tituloYPresentacion .div__videoyoutube {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
-
-.videoyoutube {
+main .tituloYPresentacion .div__videoyoutube .videoyoutube {
   border-radius: 25px;
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
 }
-
-.contenedorImagenCaracteristicas {
+main .contenedorImagenCaracteristicas {
   display: flex;
   justify-content: center;
 }
-
-.imagenCaracteristicas {
+main .contenedorImagenCaracteristicas .imagenCaracteristicas {
   width: 90%;
   border-radius: 25px;
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   margin: 50px;
 }
-
-.contenedorCarousel {
+main .catalogo .title2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
+}
+main .catalogo .contenedorCarousel {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
 }
-
-.dimensionImagen {
+main .catalogo .contenedorCarousel .dimensionImagen {
   width: 100%;
   height: 70vh;
   object-fit: cover;
@@ -496,15 +506,48 @@ footer .footerDivList .logosRedes:hover {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   opacity: 50%;
 }
-
-.catalogo__productos {
+main .catalogo .contenedorCarousel .linkPersonalizado {
+  text-decoration: none;
+  font-family: "Cormorant", serif;
+  font-style: oblique;
+  font-size: 2rem;
+  color: black;
+  transition: 1s;
+}
+main .catalogo .contenedorCarousel .linkPersonalizado:hover {
+  text-shadow: 10px 10px 10px black;
+}
+main .catalogo .contenedorCarousel .texto {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 2vw;
+}
+main #piezas .catalogo__productos, main #complementos .catalogo__productos, main #bazar_premium .catalogo__productos, main #otros_productos .catalogo__productos {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.gridCatalogo {
+main #piezas .title2, main #complementos .title2, main #bazar_premium .title2, main #otros_productos .title2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
+}
+main #piezas .texto, main #complementos .texto, main #bazar_premium .texto, main #otros_productos .texto {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 2vw;
+}
+main #piezas .gridCatalogo, main #complementos .gridCatalogo, main #bazar_premium .gridCatalogo, main #otros_productos .gridCatalogo {
   margin-top: 30px;
   margin-bottom: 50px;
   width: 60%;
@@ -513,17 +556,15 @@ footer .footerDivList .logosRedes:hover {
   grid-template-rows: auto;
   gap: 10px;
 }
-
 @media screen and (max-width: 576px) {
-  .gridCatalogo {
+  main #piezas .gridCatalogo, main #complementos .gridCatalogo, main #bazar_premium .gridCatalogo, main #otros_productos .gridCatalogo {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 10px;
   }
 }
-.gridProducto {
+main #piezas .gridCatalogo .gridProducto, main #complementos .gridCatalogo .gridProducto, main #bazar_premium .gridCatalogo .gridProducto, main #otros_productos .gridCatalogo .gridProducto {
   border: 2px solid black;
-  /* width: 100px; */
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -532,20 +573,25 @@ footer .footerDivList .logosRedes:hover {
   border-radius: 25px;
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
 }
-
-.imagenCatalogo {
+main #piezas .gridCatalogo .gridProducto .imagenCatalogo, main #complementos .gridCatalogo .gridProducto .imagenCatalogo, main #bazar_premium .gridCatalogo .gridProducto .imagenCatalogo, main #otros_productos .gridCatalogo .gridProducto .imagenCatalogo {
   width: 10vw;
   object-fit: cover;
 }
-
-.imagenCatalogoOtros {
+main #piezas .gridCatalogo .gridProducto .imagenCatalogoOtros, main #complementos .gridCatalogo .gridProducto .imagenCatalogoOtros, main #bazar_premium .gridCatalogo .gridProducto .imagenCatalogoOtros, main #otros_productos .gridCatalogo .gridProducto .imagenCatalogoOtros {
   width: 3vw;
   object-fit: cover;
 }
-
-.volver {
+main .volver {
   display: flex;
   justify-content: center;
+}
+main .volver .title2 {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 1vw;
 }
 
 .imagenPrincipal, .contenedorConocenos .contenedorTarjetas .imagenConocenos .imagenConocenos1, .contenedorConocenos .contenedorTarjetas .imagenConocenos2 .imagenMapa, .contenedorConocenos .contenedorTarjetas .videoInvitacion {
