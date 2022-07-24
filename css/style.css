@@ -52,14 +52,25 @@ footer {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   background-color: #f0e1ce;
 }
-footer .footerDivList {
+footer .footerDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer .footerDiv .footerDivList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-footer .footerDivList .logosRedes {
+footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
   transition: 1s;
 }
-footer .footerDivList .logosRedes:hover {
+footer .footerDiv .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
@@ -134,14 +145,25 @@ footer {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   background-color: #f0e1ce;
 }
-footer .footerDivList {
+footer .footerDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer .footerDiv .footerDivList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-footer .footerDivList .logosRedes {
+footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
   transition: 1s;
 }
-footer .footerDivList .logosRedes:hover {
+footer .footerDiv .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
@@ -227,14 +249,25 @@ footer {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   background-color: #f0e1ce;
 }
-footer .footerDivList {
+footer .footerDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer .footerDiv .footerDivList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-footer .footerDivList .logosRedes {
+footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
   transition: 1s;
 }
-footer .footerDivList .logosRedes:hover {
+footer .footerDiv .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
@@ -253,6 +286,18 @@ footer .footerDivList .logosRedes:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+}
+@media screen and (max-width: 576px) {
+  .contenedorConocenos .contenedorTarjetas {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 95%;
+    font-family: "Cormorant", serif;
+    font-style: normal;
+    font-size: 0.5rem;
+    color: black;
+  }
 }
 .contenedorConocenos .contenedorTarjetas .contenedorTexto {
   display: flex;
@@ -445,14 +490,25 @@ footer {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   background-color: #f0e1ce;
 }
-footer .footerDivList {
+footer .footerDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer .footerDiv .footerDivList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-footer .footerDivList .logosRedes {
+footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
   transition: 1s;
 }
-footer .footerDivList .logosRedes:hover {
+footer .footerDiv .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 
@@ -653,14 +709,25 @@ footer {
   box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457;
   background-color: #f0e1ce;
 }
-footer .footerDivList {
+footer .footerDiv {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer .footerDiv .footerDivList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
-footer .footerDivList .logosRedes {
+footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
   transition: 1s;
 }
-footer .footerDivList .logosRedes:hover {
+footer .footerDiv .footerDivList .logosRedes:hover {
   transform: scale(1.5);
 }
 

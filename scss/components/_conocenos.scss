@@ -18,6 +18,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        @media screen and (max-width: 576px) {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 10px;
+            width: 95%;
+            @include textos (normal, 0.5rem, black)
+            }
         .contenedorTexto {
             display: flex;
             justify-content: center;

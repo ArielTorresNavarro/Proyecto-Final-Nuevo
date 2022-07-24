@@ -7,13 +7,24 @@ footer {
     border-radius: 25px;
     box-shadow: 5px 5px 10px black, inset 5px 5px 10px #8a7457; 
     background-color: #f0e1ce;
-    .footerDivList {
-        list-style: none;
-        .logosRedes {
-            width: 3vw;
-            transition: 1s;
-            &:hover {
-                transform:scale(1.5);
+    .footerDiv {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .footerDivList {
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            .logosRedes {
+                width: 3vw;
+                transition: 1s;
+                &:hover {
+                    transform:scale(1.5);
+                }
             }
         }
     }
