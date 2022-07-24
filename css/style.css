@@ -44,7 +44,8 @@ header .navbarPersonalizado .linkPersonalizado:hover {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 75%;
   margin: 0 auto;
@@ -55,10 +56,19 @@ footer {
 footer .footerDiv {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 footer .footerDiv .footerDivList {
+  width: 100%;
   padding-top: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
@@ -131,7 +141,8 @@ header .navbarPersonalizado .linkPersonalizado:hover {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 75%;
   margin: 0 auto;
@@ -142,10 +153,19 @@ footer {
 footer .footerDiv {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 footer .footerDiv .footerDivList {
+  width: 100%;
   padding-top: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
@@ -229,7 +249,8 @@ header .navbarPersonalizado .linkPersonalizado:hover {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 75%;
   margin: 0 auto;
@@ -240,10 +261,19 @@ footer {
 footer .footerDiv {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 footer .footerDiv .footerDivList {
+  width: 100%;
   padding-top: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
@@ -464,7 +494,8 @@ header .navbarPersonalizado .linkPersonalizado:hover {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 75%;
   margin: 0 auto;
@@ -475,10 +506,19 @@ footer {
 footer .footerDiv {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 footer .footerDiv .footerDivList {
+  width: 100%;
   padding-top: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
@@ -677,7 +717,8 @@ header .navbarPersonalizado .linkPersonalizado:hover {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 75%;
   margin: 0 auto;
@@ -688,10 +729,19 @@ footer {
 footer .footerDiv {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 footer .footerDiv .footerDivList {
+  width: 100%;
   padding-top: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 footer .footerDiv .footerDivList .logosRedes {
   width: 3vw;
