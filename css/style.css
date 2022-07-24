@@ -579,15 +579,15 @@ main .catalogo .contenedorCarousel .dimensionImagen {
   opacity: 50%;
 }
 main .catalogo .contenedorCarousel .linkPersonalizado {
-  text-decoration: none;
-  font-family: "Cormorant", serif;
-  font-style: oblique;
-  font-size: 2rem;
-  color: black;
-  transition: 1s;
+  text-decoration: none !important;
+  font-family: "Cormorant", serif !important;
+  font-style: oblique !important;
+  font-size: 2rem !important;
+  color: black !important;
+  transition: 1s !important;
 }
 main .catalogo .contenedorCarousel .linkPersonalizado:hover {
-  text-shadow: 10px 10px 10px black;
+  text-shadow: 10px 10px 10px black !important;
 }
 main .catalogo .contenedorCarousel .texto {
   font-family: "Cormorant", serif;

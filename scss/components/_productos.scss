@@ -53,16 +53,16 @@ main {
                     opacity: 50%;
                 }
                 .linkPersonalizado {
-                    text-decoration: none;
-                    font-family: 'Cormorant', serif;
-                    font-style: oblique;
-                    font-size: 2rem;
-                    color: black;
-                    transition: 1s;
+                    text-decoration: none !important;
+                    font-family: 'Cormorant', serif !important;
+                    font-style: oblique !important;
+                    font-size: 2rem !important;
+                    color: black !important;
+                    transition: 1s !important;
                     &:hover {
-                        text-shadow: 10px 10px 10px black;
+                        text-shadow: 10px 10px 10px black !important;
                     }
-                }
+                } 
                 .texto {
                     @include textos (normal, 1.5rem, black);
                     text-align: center;
