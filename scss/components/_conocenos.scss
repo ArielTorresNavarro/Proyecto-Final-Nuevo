@@ -11,6 +11,9 @@
         @include textos (normal, 60px, black);
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 576px) {
+            @include textos (normal, 30px, black);
+        }
     }
     .contenedorTarjetas {
         width: 75%;
@@ -19,10 +22,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         @media screen and (max-width: 576px) {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-            gap: 10px;
-            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            width: 100%;
             @include textos (normal, 0.5rem, black)
             }
         .contenedorTexto {
@@ -49,9 +52,13 @@
             }
         }
         .imagenConocenos {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: fit-content;
             .imagenConocenos1 {
                 @extend %imagenes;
-                width: 30vw;
+                width: 40vw;
             }
         }
         .imagenConocenos2 {
@@ -61,11 +68,14 @@
             height: fit-content;
             .imagenMapa {
                 @extend %imagenes;
-                width:30vw;
+                width:40vw;
                 border: 2px solid black;
             }
         }
         .contenedorTexto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .textoOrganizacion {
                 width: 35vw;
                 border: 2px solid black;
@@ -84,34 +94,42 @@
                 }
             }
         }
-        .textoInvitacion {
-            width: 35vw;
-            height: fit-content;
-            border: 2px solid black;
-            background-color: white;
-            border-radius: 25px;
-            box-shadow: 5px 5px 5px black;
-            .title2 {
-                @include textos (normal, 30px, black);
-                text-align: center;
-                padding-top: 1vw;
-            }
-            .texto {
-                @include textos (normal, 1.5rem, black);
-                text-align: center;
-                padding-top: 2vw;
+        .contenedorTexto {
+            .textoInvitacion {
+                width: 35vw;
+                height: fit-content;
+                border: 2px solid black;
+                background-color: white;
+                border-radius: 25px;
+                box-shadow: 5px 5px 5px black;
+                .title2 {
+                    @include textos (normal, 30px, black);
+                    text-align: center;
+                    padding-top: 1vw;
+                }
+                .texto {
+                    @include textos (normal, 1.5rem, black);
+                    text-align: center;
+                    padding-top: 2vw;
+                }
             }
         }
         .videoInvitacion {
-            @extend %imagenes;
-            border: 2px solid black;
             display: flex;
             justify-content: center;
             align-content: center;
-            width: 25vw;
-            background-color: white;
-            border-radius: 25px;
-            overflow: hidden;
+            height: fit-content;
+            .video {
+                @extend %imagenes;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                width: 35vw;
+                background-color: white;
+                border-radius: 25px;
+                overflow: hidden;
+            }
         }
     }
     .formularioConocenos {
